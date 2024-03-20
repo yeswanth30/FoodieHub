@@ -43,3 +43,6 @@ Enables adding card details for payment.
 Option to apply coupons for discounts.
 Animated payment confirmation screen after successful payment.
 This structure provides a seamless user experience with essential features like authentication, browsing, ordering, managing cart, checkout, profile management, and support options.
+
+
+Incorporating animations and appealing dialog boxes wherever feasible, "FoodieHub" enhances user engagement and visual appeal. From captivating transitions between screens to interactive dialog boxes, every interaction is designed to captivate users and elevate their experience.
