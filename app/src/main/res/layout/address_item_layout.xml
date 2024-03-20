@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/editing"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="290dp"
+
+        android:src="@drawable/editing" />
+    <RadioButton
+        android:id="@+id/radioButtonDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@+id/editing"
+        android:layout_marginTop="20dp"
+        android:text="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editing"
+
+        android:id="@+id/ajskfaskjfa"
+        android:layout_toEndOf="@+id/radioButtonDefault"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:textSize="18sp" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:text="TextView 2"
+                android:textSize="18sp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="TextView 3"-->
+<!--                android:textSize="18sp" />-->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:text="TextView 4"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:id="@+id/buttonDelete"
+
+            android:layout_height="30dp"
+            android:src="@drawable/trash"
+            android:layout_marginLeft="240dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/dividerView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ajskfaskjfa"
+        android:background="#D3D3D3"
+        />
+</RelativeLayout>
+
+

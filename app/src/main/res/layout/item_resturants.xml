@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/rectangle_background"
+    android:elevation="5dp"
+    android:layout_margin="6dp"
+    android:id="@+id/relative1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/resto_image"
+            android:layout_width="366dp"
+            android:layout_height="204dp"
+            android:src="@drawable/authorrr"></ImageView>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rectangle_background"
+            android:padding="5dp"
+            android:layout_marginTop="140dp"
+            android:text="Stories"
+            android:textColor="@color/black"
+            android:textSize="14dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear"
+            android:layout_below="@+id/resto_image"
+            android:orientation="vertical">
+            <TextView
+                android:layout_below="@+id/resto_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stories"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:id="@+id/resto_name"></TextView>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+<!--                <ImageView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@drawable/baseline_star_24"></ImageView>-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="no of "-->
+<!--                    android:textSize="16dp"-->
+<!--                    android:layout_marginStart="3dp"-->
+<!--                    android:id="@+id/rating"></TextView>-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Resto type "-->
+<!--                    android:textSize="16dp"-->
+<!--                    android:layout_marginStart="3dp"-->
+<!--                    android:id="@+id/nooflikes"></TextView>-->
+
+
+<!--            </LinearLayout>-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type:"
+                    android:textSize="16dp"
+                    android:layout_marginStart="2dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resto type "
+                    android:textSize="16dp"
+                    android:layout_marginStart="3dp"
+                    android:id="@+id/resto_type"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Food Type:"
+                    android:textSize="16dp"
+                    android:layout_marginStart="2dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resto type "
+                    android:textSize="16dp"
+                    android:layout_marginStart="3dp"
+                    android:id="@+id/food_type"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_item_1"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24" />
+    <item
+        android:id="@+id/nav_item_2"
+        android:title="Track"
+        android:icon="@drawable/baseline_spoke_24" />
+
+    <item
+        android:id="@+id/nav_item_3"
+        android:title="Profile"
+        android:icon="@drawable/baseline_person_24" />
+
+</menu>

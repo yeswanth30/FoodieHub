@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Login "
+        android:id="@+id/login"
+        android:layout_alignParentEnd="true"
+
+        android:textColor="@color/pink"
+        android:textSize="25dp"></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/image"
+        android:layout_height="300dp"
+        android:src="@drawable/splashone"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/image">
+        <TextView
+            android:layout_below="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free Delivery"
+            android:textSize="30dp"
+            android:textColor="@color/pink"
+            android:gravity="center"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discover the best foods from "
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="over 1000 restaurants"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="20dp"
+            android:id="@+id/singin"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/signin_button"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:padding="10dp"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue with facebook"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/signin_button"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:padding="10dp"
+            android:gravity="center"
+            ></TextView>
+    </LinearLayout>
+</RelativeLayout>

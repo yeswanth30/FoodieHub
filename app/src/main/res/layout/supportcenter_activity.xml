@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="0dp"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingClass">
+        <RelativeLayout
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+
+                        android:id="@+id/back"
+                        android:src="@drawable/baseline_arrow_back_ios_242"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginEnd="10dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Support Center"
+                        android:layout_marginLeft="45dp"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!--        <RelativeLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_below="@+id/first"-->
+        <!--            android:layout_height="match_parent">-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/leftTextView"-->
+        <!--                android:layout_width="260dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Default Address"-->
+        <!--                android:textSize="20dp"-->
+        <!--                android:layout_alignParentStart="true"-->
+        <!--                android:layout_alignParentTop="true"-->
+        <!--                android:layout_marginStart="16dp"-->
+        <!--                android:layout_marginTop="16dp"/>-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/rightTextView"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Change"-->
+        <!--                android:textSize="20dp"-->
+
+        <!--                android:layout_alignParentEnd="true"-->
+        <!--                android:layout_alignParentTop="true"-->
+        <!--                android:textColor="#f15b5d"-->
+        <!--                android:layout_marginEnd="16dp"-->
+        <!--                android:layout_marginTop="16dp"/>-->
+
+
+
+        <!--        </RelativeLayout>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/first"
+            android:id="@+id/kskkssk"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/myTextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Happy Meals!"
+                android:textColor="#ee5c60"
+                android:textSize="25dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/kskkssk"
+            android:id="@+id/asjnasdjasdj"
+
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/myTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:text="
+At Happy Meals, quality is our top priority. Each dish is carefully crafted by our esteemed partners, handpicked for their commitment to excellence. Whether it's a hearty family meal or a gourmet indulgence, rest assured that every bite is a testament to our unwavering dedication to perfection."
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/asjnasdjasdj"
+            android:id="@+id/iikikiki"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/myTextView1s1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Email: info@happymeals.com
+
+
+Phone: +1 (555) 123-4567"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/iikikiki"
+            android:id="@+id/iikikiksi"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/myTextView1ss1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Got questions or need assistance? Our friendly support center is here for you around the clock. Reach out to us via email at support@happymeals.com or give us a call at +1 (555) 123-4567. We're always ready to assist you and ensure your experience with Happy Meals is nothing short of exceptional.
+"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

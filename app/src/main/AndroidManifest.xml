@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/cutlery"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cutlery"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Happymeals"
+        tools:targetApi="31">
+        <activity
+            android:name=".FlashScreenActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Happymeals">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditProfileActivity"/>
+        <activity android:name=".orderhistory_Activity"/>
+        <activity android:name=".Profile_Activity"/>
+        <activity android:name=".SigninActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Address_Activity"/>
+        <activity android:name=".EnterAddressActivity"/>
+        <activity android:name=".EditAddressActivity"/>
+        <activity android:name=".Checkout_Activity"/>
+        <activity android:name=".PagerActivity"/>
+        <activity android:name=".PaymentMethod_Activity"/>
+        <activity android:name=".PaymentDoneActivity"/>
+        <activity android:name=".Food_items_activity"/>
+        <activity android:name=".MoreDetailsActivity"/>
+        <activity android:name=".Aboutus_Activity"/>
+        <activity android:name=".Supportcenter_Activity"/>
+        <activity android:name=".Subcat_activity"/>
+
+
+
+    </application>
+
+</manifest>
+
+

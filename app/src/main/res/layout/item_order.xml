@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/totalll"
+
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/dish_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/authorrr" />
+
+    <TextView
+        android:id="@+id/dish_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/dish_image"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dish_name"
+        android:layout_toEndOf="@id/dish_image"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantity"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btn_review"
+            android:layout_width="100dp"
+            android:backgroundTint="#ee5c60"
+            android:layout_height="40dp"
+            android:text="Review"
+            android:onClick="openReviewDialog" />
+
+        <Button
+            android:id="@+id/btn_rating"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Ratings"
+            android:backgroundTint="#ee5c60"
+            android:onClick="openRatingDialog"
+            android:layout_marginStart="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

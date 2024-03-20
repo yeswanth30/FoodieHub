@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- custom_success_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginTop="10dp"
+
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/animationImageView"
+        android:layout_width="190dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/dfesss" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Added to cart"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/customTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+
+        android:textColor="#F15B5D"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/cardsave"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/asdjadij"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:backgroundTint="#f15b5d"-->
+<!--        android:text="OK" />-->
+
+</LinearLayout>
