@@ -34,6 +34,9 @@ Shows saved card details.
 Includes settings, about us, support center options.
 Provides logout functionality.
 
+
+In the Third fragment of "FoodieHub", users can access their order history, view total amounts spent, and conveniently repeat previous orders. They can also rate and review the food they've ordered, ensuring a personalized and interactive dining experience tailored to their preferences.
+
 Checkout Page:
 Allows user to change address and set a default address.
 Enables adding card details for payment.
